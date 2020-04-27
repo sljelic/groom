@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E22D63F-DC64-0B5D-E252-F8A8C03213C4" name="Zupanija">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:30:58 UTC</createdTime>
+<generatorID>873445D3-57E3-438B-28D4-5A05AF0414F4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<abbreviation>ZUP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mbr" id="AF8643C7-7D56-4597-61CC-2DD71ABD2AFA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:30:58 UTC</createdTime>
+<generatorID>58E7E47E-9490-E174-CD72-16DF29E062B0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="3985E688-DB17-6544-A2A7-045A04296955">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:30:58 UTC</createdTime>
+<generatorID>8EC7EC6E-9CC9-69BA-DD6E-44BB66CD10ED</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E2CC43A-2F22-7748-5EBD-894FC8DCE881" name="Zupanija_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:30:58 UTC</createdTime>
+<generatorID>9B5E7888-14DC-8671-81C0-DC60C9C43C83</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF8643C7-7D56-4597-61CC-2DD71ABD2AFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

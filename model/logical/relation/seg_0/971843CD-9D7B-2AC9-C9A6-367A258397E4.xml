@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pur_ulice" directorySegmentName="seg_0" id="971843CD-9D7B-2AC9-C9A6-367A258397E4">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 10:56:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>1F65892D-0E78-7498-D5A0-81EC17E4884A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>32A7728C-02BF-818E-71AA-B023798774BB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2853C99B-A845-493A-898B-DE71601D3B7D</targetEntity>
+<transferable>true</transferable>
+</Relation>

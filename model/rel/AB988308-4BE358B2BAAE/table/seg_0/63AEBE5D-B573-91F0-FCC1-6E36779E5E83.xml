@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63AEBE5D-B573-91F0-FCC1-6E36779E5E83" name="Ulica">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:30:58 UTC</createdTime>
+<generatorID>29A2337D-3AB6-EB48-5834-88DBEFF22599</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<abbreviation>ULC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mbr" id="F137F917-9514-7B8B-3530-5EF7036199FC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:30:58 UTC</createdTime>
+<generatorID>18BD39A9-267A-9C6C-D2E6-F33BF6021E74</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="D433158F-DA99-FDCF-CB50-53664C33A802">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:30:58 UTC</createdTime>
+<generatorID>FE2600B5-98F2-9241-979B-58638FFCCD50</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mbr1" id="DF381089-7541-CCD9-339F-3CF212874136">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:30:58 UTC</createdTime>
+<generatorID>FCA4EEE6-B3DB-6885-4090-1033FF2F016E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CCD1AD8-A746-5B5C-7672-9B7586D207FF" referredColumn="7B09E137-8DD5-AD97-9708-A9204BB1876D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA3EDA9A-73F1-0181-2981-0318AA885E5D" name="Ulica_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:30:58 UTC</createdTime>
+<generatorID>D21EEA74-03D6-8C90-06D8-DC2DC7221FA5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F137F917-9514-7B8B-3530-5EF7036199FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9BFE1AB-FCB4-CF58-4367-82966A082AD3" name="ul_u_nas">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:30:58 UTC</createdTime>
+<generatorID>5A402E08-DC57-A714-DE0B-649297D928F5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF381089-7541-CCD9-339F-3CF212874136"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

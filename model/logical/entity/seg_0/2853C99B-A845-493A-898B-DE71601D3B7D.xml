@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2853C99B-A845-493A-898B-DE71601D3B7D" name="PostUred">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 10:51:18 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PUR</shortName>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="naziv" id="AB2E0C29-5FF0-1CF5-4E8C-CBE8E14CF7C5">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 10:52:14 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj" id="FDFDC55A-778D-A681-11ED-57DBDDBF2A9B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 10:52:43 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naselje" id="CBA5511D-AEFC-C0A1-22FB-A7D8EDC207DB">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 10:52:58 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ul_mbr" id="93EAC6BE-B4AF-05CB-22BC-D3A474AEF598">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 10:56:45 UTC</createdTime>
+<generatorID>971843CD-9D7B-2AC9-C9A6-367A258397E4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<referedAttribute>D00A940E-0FC3-E902-404F-A8FCBEBA447E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

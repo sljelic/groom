@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3BDE37FA-FB99-8AE5-D797-529F1AB596EB" containerWithKeyObject="99750F8E-74D0-BD29-B71F-C12954C8E350" localFKIndex="A295B685-E10E-9EF7-9C05-E52C1B2A164C" name="PUr_Nas_Postanski_ured_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:30:58 UTC</createdTime>
+<generatorID>17290882-1454-E6A5-0D88-62644637B807</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Postanski_ured</referredTableLongName>
+<deleteRule>RESTRICT</deleteRule>
+<referredTableID>7A3C5E4B-849A-BBB5-0A48-8BAD89AC3121</referredTableID>
+<keyObject>708D4992-B7BD-E17E-D72A-FAC349F28D3D</keyObject>
+<referredKeyID>708D4992-B7BD-E17E-D72A-FAC349F28D3D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>postanski_broj</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

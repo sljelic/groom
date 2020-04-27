@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E48C435B-F622-5009-D8E8-C13586FF0ECA" name="Osoba">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-25 18:42:42 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>OSB</shortName>
+<attributeInherType>All atributes</attributeInherType>
+<discriminatorAttributeID>4869079C-1092-ED4A-8607-A1F4DDC1865B</discriminatorAttributeID>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ime" id="7E872212-60F7-18C6-52B0-AFAFA23064E7">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-25 18:51:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezime" id="6DEC165C-5814-62A6-C7C0-D749D4672CB8">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-25 18:52:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="uloga" id="4869079C-1092-ED4A-8607-A1F4DDC1865B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-25 20:18:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>614B2B26-CDC3-5E9E-1846-4AC4E64FDBE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="drugo_prezime" id="3E72F05B-5E0B-AD17-D5D1-55E7ACBADCBD">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-25 18:52:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="spol" id="08B5DDEA-6D90-B301-C9B5-4A26734DAB49">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-25 18:53:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>513C01A4-ACAD-1DBD-53F8-546CB1D4D4F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_rodjenja" id="558E1612-10D4-DBF0-311A-8F15E5816185">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-25 19:19:51 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fotografija" id="53FC257E-4E2F-8BC2-F25E-06D2E4EB6B84">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-25 19:38:34 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="39198B4D-13AD-DBA2-197F-8B00022E16CF" name="ImePrDatR">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:27:47 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="false"/>
+</engineerTo>
+<newElementsIDs>7E872212-60F7-18C6-52B0-AFAFA23064E7,6DEC165C-5814-62A6-C7C0-D749D4672CB8,558E1612-10D4-DBF0-311A-8F15E5816185</newElementsIDs>
+<usedAttributes>
+<attributeRef>7E872212-60F7-18C6-52B0-AFAFA23064E7</attributeRef>
+<attributeRef>6DEC165C-5814-62A6-C7C0-D749D4672CB8</attributeRef>
+<attributeRef>558E1612-10D4-DBF0-311A-8F15E5816185</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

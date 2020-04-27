@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PUr_Nas" directorySegmentName="seg_0" id="17290882-1454-E6A5-0D88-62644637B807">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D32B26B6-5C2E-446D-45A6-D837730238B2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>20609504-1FA0-6C88-0C05-1EFEBB3E0FEC</targetEntity>
+<transferable>true</transferable>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FpasFcs" directorySegmentName="seg_0" id="DFF7806C-04B3-B0D1-B659-7B819D09C354">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 17:29:03 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D2482D6-33AC-E68F-6568-632EE412263A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1F0663E8-50B7-3987-1607-727672C39146</targetEntity>
+<transferable>true</transferable>
+</Relation>

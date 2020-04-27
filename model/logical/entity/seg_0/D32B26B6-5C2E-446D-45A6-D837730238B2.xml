@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D32B26B6-5C2E-446D-45A6-D837730238B2" name="Postanski_ured">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PSU</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="postanski_broj" id="03DEA9EF-C4AE-DD6F-B83F-CC1CB8DEDF6D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>7790E081-6D28-D28C-B4F3-8E83DF108FBE</importedID>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="211CA0C3-8B8E-FCE6-DC03-C644A28184C6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>1668624D-D6E9-ADF3-DD0C-955566EDE258</importedID>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7C077F08-D0BF-2E0D-5304-DC31F6583426" name="Postanski_ured PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03DEA9EF-C4AE-DD6F-B83F-CC1CB8DEDF6D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

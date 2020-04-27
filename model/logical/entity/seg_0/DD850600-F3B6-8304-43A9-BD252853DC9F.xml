@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD850600-F3B6-8304-43A9-BD252853DC9F" name="Teritorija">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TER</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mbr" id="77401C64-0E2F-735E-26D1-A1BB8DA87594">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>FF3C304A-2957-CE76-F1C4-0B7DDD07C11F</importedID>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="7CB94C8D-9185-E9B7-DCB7-B4C022C51F63">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>45179E8C-BCF6-23C7-F4B5-3E22859E198F</importedID>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrsta" id="29ECE061-3856-9B64-73F1-E5488490739A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>06BA8130-AA2A-3523-8E3E-94DC85B07EB1</importedID>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mbr1" id="34A509DC-7781-5353-6A93-99770D01D6EA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<generatorID>E4F235CC-70A9-0140-7AE5-C4FE6004073A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<importedID>2D5D643B-DF90-FE07-34F8-8A973438B3BE</importedID>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<referedAttribute>58E7E47E-9490-E174-CD72-16DF29E062B0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4BE68D42-F890-A010-A268-7FFDC849EE86" name="Teritorija PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>77401C64-0E2F-735E-26D1-A1BB8DA87594</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3CCD1AD8-A746-5B5C-7672-9B7586D207FF" containerWithKeyObject="63AEBE5D-B573-91F0-FCC1-6E36779E5E83" localFKIndex="E9BFE1AB-FCB4-CF58-4367-82966A082AD3" name="ul_u_nas">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:30:58 UTC</createdTime>
+<generatorID>5A402E08-DC57-A714-DE0B-649297D928F5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Naselje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D3B36288-1DE7-6AF7-1018-8CF03662B9ED</referredTableID>
+<keyObject>ACB79F68-B8FC-EB0B-CE32-A3DCF87D8C33</keyObject>
+<referredKeyID>ACB79F68-B8FC-EB0B-CE32-A3DCF87D8C33</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>mbr</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

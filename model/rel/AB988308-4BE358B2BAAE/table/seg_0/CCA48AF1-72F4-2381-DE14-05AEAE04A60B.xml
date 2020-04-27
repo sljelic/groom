@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCA48AF1-72F4-2381-DE14-05AEAE04A60B" name="FCI_SEK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 17:30:09 UTC</createdTime>
+<generatorID>1D2482D6-33AC-E68F-6568-632EE412263A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<abbreviation>FCS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rb" id="37CB324B-D707-A85F-130B-A10436D2CC90">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 17:30:09 UTC</createdTime>
+<generatorID>5C4C528D-64A0-028A-E9B1-BC98FC2EEBB3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="64BB6E13-FE41-BC85-B9B3-C6F57E605494">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 17:30:09 UTC</createdTime>
+<generatorID>356CE5FD-19D8-FFBF-A003-E15831F14929</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FCS_ID" id="4E23141C-CFDA-5B64-6570-C65F9C41E1F2">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 17:30:09 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="FCI_GR_FCG_ID" id="F3C58804-9778-7C13-3E52-0DE2F1FED55E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 17:30:09 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C1D4F47-F588-3799-E1C5-C38FD847F170" referredColumn="07A84015-3B4B-CAC6-B307-660A4B419FD9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5DDB4B6-2392-1C1C-C2FF-F7689A25C7BE" name="FCS_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 17:30:09 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="4E23141C-CFDA-5B64-6570-C65F9C41E1F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCF1AA02-681A-DDFF-5A52-2A73DC666BE8" name="FcgFcs">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 17:30:09 UTC</createdTime>
+<generatorID>8B52069A-FB65-8B55-B9CD-803C9AD9C56C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3C58804-9778-7C13-3E52-0DE2F1FED55E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

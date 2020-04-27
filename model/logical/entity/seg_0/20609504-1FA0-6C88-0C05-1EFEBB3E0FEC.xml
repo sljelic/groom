@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20609504-1FA0-6C88-0C05-1EFEBB3E0FEC" name="Naselje">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>NAS</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mbr" id="86A19E8D-8958-41A5-F088-9E9DBA66863F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>B6070B6F-B20B-E915-2236-2F007CE9C6C3</importedID>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="085BD2AA-46AB-58F3-B239-01DEAD82B031">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>397423FA-67B8-893D-A5E9-96683CA1498B</importedID>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mbr1" id="E3421A26-D747-4A04-7919-117D9A399785">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<generatorID>084D0557-8FA6-D48F-5A90-F46AC9835F89</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<importedID>8295BF3E-28EF-D215-EC5B-411AACDB191B</importedID>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<referedAttribute>77401C64-0E2F-735E-26D1-A1BB8DA87594</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D8ABF864-A9A1-0D9E-20E0-09D4C56CF8D7" name="Naselje PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>86A19E8D-8958-41A5-F088-9E9DBA66863F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OsPas" directorySegmentName="seg_0" id="9FEC4A80-D134-4D11-F762-DD6FDF46C732">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 17:05:18 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E48C435B-F622-5009-D8E8-C13586FF0ECA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9BE5B2A6-464C-45FB-C4AF-849BFF838C54</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="uloga" id="3ED8900C-C5F4-9E7A-1C10-576771CE96ED">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 17:08:05 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>614B2B26-CDC3-5E9E-1846-4AC4E64FDBE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="od" id="6375A72B-A6EB-BA6A-9A25-B02004364021">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 17:08:52 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="do" id="E4B74913-F7B5-3B3B-E0F6-D92D0E6EB3CD">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 17:09:10 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

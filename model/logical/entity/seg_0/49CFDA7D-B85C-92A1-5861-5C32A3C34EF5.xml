@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49CFDA7D-B85C-92A1-5861-5C32A3C34EF5" name="Kontakt">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-25 20:57:56 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>KNT</shortName>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vrsta" id="FAAE3A80-5EB1-1701-F9A3-92C78A23858C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-25 20:57:56 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F9A183C-8EAE-A22A-F4CE-F9FAD7502CD5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrijednost" id="5542C392-9970-0F8D-0160-1FFEBA71E2C5">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-25 20:57:56 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B48FBDD-0746-B140-ABD1-24DC4AEE581F" name="Osb_Vrs_Vrij">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-25 21:02:34 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>94E0A8D7-A083-3269-543E-BF8D02E4B6C0,FAAE3A80-5EB1-1701-F9A3-92C78A23858C,5542C392-9970-0F8D-0160-1FFEBA71E2C5</newElementsIDs>
+<usedAttributes>
+<attributeRef>FAAE3A80-5EB1-1701-F9A3-92C78A23858C</attributeRef>
+<attributeRef>5542C392-9970-0F8D-0160-1FFEBA71E2C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

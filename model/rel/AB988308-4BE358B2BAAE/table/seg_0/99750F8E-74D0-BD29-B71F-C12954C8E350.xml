@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99750F8E-74D0-BD29-B71F-C12954C8E350" name="PUr_Nas">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:30:58 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Postanski_ured_postanski_broj" id="5B3ECEAE-1B98-C9C4-501A-4AB85570656F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:30:58 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BDE37FA-FB99-8AE5-D797-529F1AB596EB" referredColumn="AB9ECA8F-5555-B762-B67E-F4AEC8CF623E"/>
+</associations>
+</Column>
+<Column name="Naselje_mbr" id="6F1EC001-D410-0EF7-BD90-11C627702261">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:30:58 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80E6EE52-2199-0701-7E29-30AFAB141A78" referredColumn="7B09E137-8DD5-AD97-9708-A9204BB1876D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0478C739-654E-D660-5768-12D8096B6FD5" name="PUr_Nas_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:30:58 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B3ECEAE-1B98-C9C4-501A-4AB85570656F"/>
+<colUsage columnID="6F1EC001-D410-0EF7-BD90-11C627702261"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A295B685-E10E-9EF7-9C05-E52C1B2A164C" name="PUr_Nas_Postanski_ured_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:30:58 UTC</createdTime>
+<generatorID>17290882-1454-E6A5-0D88-62644637B807</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B3ECEAE-1B98-C9C4-501A-4AB85570656F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3031A13E-B707-7071-DF76-243A33077199" name="PUr_Nas_Naselje_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 15:30:58 UTC</createdTime>
+<generatorID>17290882-1454-E6A5-0D88-62644637B807</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F1EC001-D410-0EF7-BD90-11C627702261"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

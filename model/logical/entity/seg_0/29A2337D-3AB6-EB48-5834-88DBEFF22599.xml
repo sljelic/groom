@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29A2337D-3AB6-EB48-5834-88DBEFF22599" name="Ulica">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ULC</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mbr" id="18BD39A9-267A-9C6C-D2E6-F33BF6021E74">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>80B2BA96-E9CA-CDB9-D258-7EFE61D26428</importedID>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="FE2600B5-98F2-9241-979B-58638FFCCD50">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>DCBCF12D-9123-B53C-741C-7D2F55CD2AE8</importedID>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mbr1" id="FCA4EEE6-B3DB-6885-4090-1033FF2F016E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<generatorID>5A402E08-DC57-A714-DE0B-649297D928F5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<importedID>E838A626-2A7F-FD0B-09EF-8E2B6701FE08</importedID>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<referedAttribute>86A19E8D-8958-41A5-F088-9E9DBA66863F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D21EEA74-03D6-8C90-06D8-DC2DC7221FA5" name="Ulica PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>18BD39A9-267A-9C6C-D2E6-F33BF6021E74</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

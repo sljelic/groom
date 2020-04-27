@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="na_teritoriji" directorySegmentName="seg_0" id="084D0557-8FA6-D48F-5A90-F46AC9835F89">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-04-27 11:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>4BE68D42-F890-A010-A268-7FFDC849EE86</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DD850600-F3B6-8304-43A9-BD252853DC9F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>20609504-1FA0-6C88-0C05-1EFEBB3E0FEC</targetEntity>
+<transferable>true</transferable>
+</Relation>
