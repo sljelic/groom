@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B056234A-31B5-EA41-A6F0-B7452389AF16" name="Naselje">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 22:59:46 UTC</createdTime>
+<generatorID>20609504-1FA0-6C88-0C05-1EFEBB3E0FEC</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<abbreviation>NAS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mbr" id="87150372-1F57-DB9C-B998-677FAA1D19A7">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 22:59:46 UTC</createdTime>
+<generatorID>86A19E8D-8958-41A5-F088-9E9DBA66863F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="50E380F1-3A01-A2AD-E4C7-8C41012CF95C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 22:59:46 UTC</createdTime>
+<generatorID>085BD2AA-46AB-58F3-B239-01DEAD82B031</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mbr1" id="7683F2D6-299D-0DBF-7F2C-BAB11EFC4150">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 22:59:46 UTC</createdTime>
+<generatorID>E3421A26-D747-4A04-7919-117D9A399785</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA4694BB-486B-D391-2451-B66BD7D2C167" referredColumn="B5EEA9F4-E921-C8C6-036C-045626590318"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F00ED4FF-479F-736C-8645-DECFAE3BE8B5" name="Naselje_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 22:59:46 UTC</createdTime>
+<generatorID>D8ABF864-A9A1-0D9E-20E0-09D4C56CF8D7</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87150372-1F57-DB9C-B998-677FAA1D19A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9065A873-2A4A-C32A-EA4B-E03917816E9C" name="na_teritoriji">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 22:59:46 UTC</createdTime>
+<generatorID>084D0557-8FA6-D48F-5A90-F46AC9835F89</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7683F2D6-299D-0DBF-7F2C-BAB11EFC4150"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

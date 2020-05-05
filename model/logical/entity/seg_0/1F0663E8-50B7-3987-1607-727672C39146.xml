@@ -15,7 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <shortName>FPS</shortName>
-<createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="fci_broj" id="9C417093-DD9E-60E5-7B17-A3E6C31F6A0F">
 <createdBy>Korisnik</createdBy>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fcp_var" directorySegmentName="seg_0" id="0C3FD93B-3EE2-BAE1-A1AF-926A30019F39">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 19:16:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1F0663E8-50B7-3987-1607-727672C39146</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F06E05A4-2395-42BC-D9B7-36E73BC8B61C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

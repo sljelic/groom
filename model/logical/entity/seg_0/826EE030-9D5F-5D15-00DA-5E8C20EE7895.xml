@@ -15,7 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <shortName>FCP</shortName>
-<createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="rb" id="3FDF257A-4D0D-9CFD-A157-024C97010BA9">
 <createdBy>Korisnik</createdBy>
@@ -33,6 +32,34 @@
 <Attribute name="naziv" id="36495A45-CB95-AC8C-4420-BD6ACD5F0726">
 <createdBy>Korisnik</createdBy>
 <createdTime>2020-04-27 17:14:58 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hrvatski_naziv" id="72C2C483-3AC5-4110-804A-C6C56A4CC8E8">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 20:00:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="srpski_naziv" id="3946D09D-7EB5-21EE-D7E8-710C180BCBEE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 20:00:55 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
 <item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>

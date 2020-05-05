@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D2482D6-33AC-E68F-6568-632EE412263A" name="FCI_SEK">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F06E05A4-2395-42BC-D9B7-36E73BC8B61C" name="Varijanta">
 <createdBy>Korisnik</createdBy>
-<createdTime>2020-04-27 17:12:15 UTC</createdTime>
+<createdTime>2020-05-05 19:09:54 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
 <item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
@@ -14,24 +14,12 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>FCS</shortName>
+<shortName>VAR</shortName>
+<createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="rb" id="5C4C528D-64A0-028A-E9B1-BC98FC2EEBB3">
+<Attribute name="naziv" id="6448BF96-6C3B-B2E2-1FC7-82F27524473E">
 <createdBy>Korisnik</createdBy>
-<createdTime>2020-04-27 17:12:35 UTC</createdTime>
-<ownerDesignName>model</ownerDesignName>
-<engineerTo>
-<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="naziv" id="356CE5FD-19D8-FFBF-A003-E15831F14929">
-<createdBy>Korisnik</createdBy>
-<createdTime>2020-04-27 17:13:19 UTC</createdTime>
+<createdTime>2020-05-05 19:12:47 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
 <item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
@@ -43,9 +31,9 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="hrvatski_naziv" id="10F528C2-FA68-B962-5A07-8C70639BA2DE">
+<Attribute name="hrvatski_naziv" id="358E28A0-62A6-D975-EF0F-0631DEBC60A3">
 <createdBy>Korisnik</createdBy>
-<createdTime>2020-05-05 20:00:44 UTC</createdTime>
+<createdTime>2020-05-05 20:01:09 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
 <item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
@@ -57,9 +45,9 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="srpski_naziv" id="33994B33-5B3D-BD2D-8747-B8EE62784BF1">
+<Attribute name="srpski_naziv" id="CBDCDECE-7B09-255A-6E27-C1F454BACCA4">
 <createdBy>Korisnik</createdBy>
-<createdTime>2020-05-05 20:00:44 UTC</createdTime>
+<createdTime>2020-05-05 20:01:09 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
 <item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>

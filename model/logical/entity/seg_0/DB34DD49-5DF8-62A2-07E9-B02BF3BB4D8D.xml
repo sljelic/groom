@@ -15,7 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <shortName>FCG</shortName>
-<createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="rb" id="0F914267-D389-8391-094A-4FA82B9EB9D3">
 <createdBy>Korisnik</createdBy>
