@@ -85,7 +85,7 @@ for i in range(num_insert):
     random_number_of_days = random.randrange(days_between_dates)
     random_date = start_date + datetime.timedelta(days=random_number_of_days)
     if random.randrange(2) == 1:
-        dat = 'TO_DATE(\'' +  str(random_date)+  '\',\'YYYY-MM-DD\')'
+        dat = '\'' +  str(random_date)+  '\''
     else:
         dat =  'NULL' 
     lll = 'INSERT INTO osoba (ime, prezime, drugo_prezime, uloga, spol, datum_rodjenja)'+ ' VALUES (' + im +', ' + prz1 + ', ' + prz2 + ', ' +ul+', ' + sp +', ' + dat +');\n';
