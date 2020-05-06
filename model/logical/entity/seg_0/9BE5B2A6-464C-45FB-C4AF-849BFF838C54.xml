@@ -30,6 +30,19 @@
 <dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="spol" id="57ECE704-24DC-1BCA-121B-64DC9671B04B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 00:48:52 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>513C01A4-ACAD-1DBD-53F8-546CB1D4D4F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="datum_okota" id="B1E2ED79-69D4-5511-4771-D2A1D69CDC71">
 <createdBy>Korisnik</createdBy>
 <createdTime>2020-04-27 17:03:59 UTC</createdTime>
@@ -41,6 +54,19 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip_dlake" id="AB967279-DCE0-F4C8-A219-F0E4DFE9246B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:31:18 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>613D5A4A-0F87-FA4C-B036-E368950BD63C</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

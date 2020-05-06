@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="majka" directorySegmentName="seg_0" id="A24C84C9-85F0-E1EC-FDAF-035A6A86CA12">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:29:42 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>10A73CF4-A775-0D8E-A0A1-F8F019F46C03</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9BE5B2A6-464C-45FB-C4AF-849BFF838C54</targetEntity>
+<transferable>true</transferable>
+</Relation>

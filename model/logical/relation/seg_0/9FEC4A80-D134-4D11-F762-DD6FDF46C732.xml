@@ -41,6 +41,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </attribute>
 <attribute name="do" id="E4B74913-F7B5-3B3B-E0F6-D92D0E6EB3CD">

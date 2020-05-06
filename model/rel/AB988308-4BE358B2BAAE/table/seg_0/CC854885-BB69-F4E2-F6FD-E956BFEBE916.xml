@@ -1,0 +1,279 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC854885-BB69-F4E2-F6FD-E956BFEBE916" name="PASMINA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<generatorID>10A73CF4-A775-0D8E-A0A1-F8F019F46C03</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<abbreviation>PSM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PSM_ID" id="0FA3577C-CBEA-1C37-8295-AF6ED6BCD299">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="fci_broj" id="E2E39DEE-B889-6579-7C27-E95ECD0BAE2C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<generatorID>D4DB4E4B-4BA8-B2EF-3638-6A56536D38BC</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pretraz_string" id="EBFB3E4C-6516-A2A7-3881-147FB4813FEC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<generatorID>8C1B503D-D29D-D3A9-3FFF-80565E3F5FF4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>550</dataTypeSize>
+<ownDataTypeParameters>550,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="8218C3D1-5AF2-7C22-F748-27720AC2CB2B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<generatorID>9C03186E-35C6-F814-DDF2-8E65591A1D53</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="engleski_naziv" id="922824FE-9B2E-8C36-474B-AC00D70C3A09">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<generatorID>DB7F2158-D8D6-50C9-ECC2-7A4C6FB51521</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hrvatski_naziv" id="B6B85B5F-FC42-6DCA-1C0D-B2E9C07E1363">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<generatorID>88DAD56C-2100-0DB4-6FAF-C7CC1C623306</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="srpski_naziv" id="01F9FCAA-C8E5-A587-E261-7B7213E4B3B8">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<generatorID>F8B7ACCC-DB70-825D-1D74-C9A9764017BD</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zemlja_podrijetla" id="E0C75E57-3BC7-6713-8DB3-D63BC41A954B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<generatorID>3BE56A90-70C3-BEE2-4765-3D567E8F9802</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ilustracija" id="3DAF7BE7-7C70-6590-F212-8BB8041D9E42">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<generatorID>9A7CF52D-5B5E-4587-799A-5604781161EA</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grupa_eng" id="B8838D52-FD89-0AB0-0C16-27B377D743FA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 00:23:48 UTC</createdTime>
+<generatorID>E0B4F193-7E8A-F9B8-B546-050A11F7F4C5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sekcija_eng" id="8DD77D9C-99ED-008A-D677-A5DCDA5D9D3D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 00:23:48 UTC</createdTime>
+<generatorID>D1674BDF-4CF8-CE76-B92D-AA3EBC6B4D57</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="podsekcija_eng" id="2A562070-F61B-9288-319D-61D5BD04BFA7">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 00:23:48 UTC</createdTime>
+<generatorID>A541B4B6-637C-FC48-EAE2-91F029D49BCB</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grupa_hrv" id="6D68410B-57E7-C944-043B-4B3D77E3190D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 00:23:48 UTC</createdTime>
+<generatorID>4807C43B-57EC-C91A-23F9-1DE47671FA23</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sekcija_hrv" id="5623DA99-F89B-925E-58B5-C91B47575015">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 00:23:48 UTC</createdTime>
+<generatorID>55A6811A-AE2C-FC1D-9539-E4BE22EA1A35</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="podsekcija_hrv" id="8068EFE0-F2BB-8CA6-D8FC-535CC790443A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 00:23:48 UTC</createdTime>
+<generatorID>A7CCBACA-0A3C-0D2E-FE26-CC3AF2A486B6</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grupa_srb" id="52680D84-C1F2-B5FF-8562-CA7AD43D4287">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 00:23:48 UTC</createdTime>
+<generatorID>20F017F3-0030-A9C2-DBE4-FBA1045CB2A3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sekcija_srb" id="21F7CAFA-4333-43D1-CFB9-F20317ACAE16">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 00:23:48 UTC</createdTime>
+<generatorID>EBF1952B-6417-2F49-0EF1-5D2FFCB848F4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="podsekcija_srb" id="BBAAB9C0-8068-DF80-EDBD-ED714A7978C3">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 00:23:48 UTC</createdTime>
+<generatorID>DE848488-6827-63D5-7C0A-EAB04EE5A560</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="redni_broj_grupe" id="4B54611A-A61D-6127-452D-16E01315B28A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 00:32:53 UTC</createdTime>
+<generatorID>828AECEA-2C7A-51E0-DCFE-8CEF6C64533C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6DE2781-4D31-E315-0514-90745F76DC2B" name="PSM_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="0FA3577C-CBEA-1C37-8295-AF6ED6BCD299"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6977CAD-B154-6F71-55B0-12EF1B657EAB" name="PASMINA__IDX">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:47 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBFB3E4C-6516-A2A7-3881-147FB4813FEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57455BC1-2733-7C8C-13A5-6F343CB8EE8E" name="Adresa">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<generatorID>F1C50B36-ECC9-2283-5774-E9B6C161E04E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<abbreviation>ADR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tip" id="9C68AE34-82D5-0B2C-2372-6345483882B4">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<generatorID>EDDF1632-E48E-9037-08AD-2B9A7F913989</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>6178B1F0-4662-B98B-1B1B-CDE82907A54E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj" id="A0BC76C9-70EB-16B7-921D-30764BE1EF8E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<generatorID>E21AB0B7-4517-79C6-E286-602B413942BC</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dodatak" id="D232720E-3399-FE0D-7722-88F0844E9C71">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<generatorID>8561B791-434A-CF3E-0FD9-3B4CFBBEAE29</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ul_mbr" id="EE47232A-F077-8D78-A190-9D8E83083385">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<generatorID>7A19CA27-3730-77AC-A90D-C10E50F8E265</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD1323CA-7B4E-CD13-9093-CB95E94EE10E" referredColumn="079CDB3D-5DD4-7A51-A27A-F40C8E32975A"/>
+</associations>
+</Column>
+<Column name="ADR_ID" id="160704C6-095A-FD56-32BA-C49C20CF9E05">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Osoba_OSB_ID" id="53EB44F3-3015-C8E8-942A-FAF694C6EA87">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="347C8190-B8D2-A598-898F-DEED2092E179" referredColumn="17E713FF-9E32-5D23-AA5C-9EBD23D102B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5E310DE-3F0D-FC78-D1E7-2E5982B65EE7" name="ADR_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="160704C6-095A-FD56-32BA-C49C20CF9E05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6967C6C-719B-B42E-1444-9D101650EC8B" name="Osb_Tip">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<generatorID>5BAF80F6-A9D6-EF8B-CCEC-A109B4EA40CB</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53EB44F3-3015-C8E8-942A-FAF694C6EA87"/>
+<colUsage columnID="9C68AE34-82D5-0B2C-2372-6345483882B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61A3D743-D9C5-18F9-9496-3E16CE4F3B3A" name="u_ulici">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<generatorID>299D8FC9-C31B-059C-2328-9F6F9F016983</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE47232A-F077-8D78-A190-9D8E83083385"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E8FDD60-9851-35AE-90FE-E937F81AD0B1" name="zivi_na">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-05 23:46:33 UTC</createdTime>
+<generatorID>953A85AD-D097-7AFA-E802-2856421803D5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53EB44F3-3015-C8E8-942A-FAF694C6EA87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
