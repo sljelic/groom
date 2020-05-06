@@ -21,7 +21,7 @@ br_kont = len(vrsta);
 mobpoz = ['91', '92', '95', '97', '98', '99'];
 domene = ['gmail.com', 'live.com', 'outlook.com']
 
-num_insert = 60
+num_insert = 400
 
 usernames = ['animalcrummy', 'hurrywanting', 'emptynide', 'favornecked', 'pauperrevolt', 'wakefieldaground', 
              'excavategap', 'pukaoanteater', 'antennabreast', 'copperminechittle', 'pepcry', 'annoyarrest', 
@@ -74,17 +74,17 @@ for i in range(num_insert):
         num_crt += 1;
         choosed[knt] = True
         if knt == 'Facebook':
-            vrd = 'www.facebook.com/'+ usernames[random.randrange(br_usn)]
+            vrd = 'www.facebook.com/'+ usernames[random.randrange(br_usn)]+str(random.randint(100000,1000000))
         elif knt == 'Instagram':
-            vrd = 'www.instagram.com/'+ usernames[random.randrange(br_usn)]
+            vrd = 'www.instagram.com/'+ usernames[random.randrange(br_usn)]+str(random.randint(100000,1000000))
         elif knt in ('Kućni', 'Fax', 'Na poslu'):
             vrd = '+385 ' + str(random.randrange(10,100)) + ' ' +  str(random.randrange(100,1000)) + ' ' + str(random.randrange(100,1000))
         elif knt in ('Mobitel', 'Poslovni mobitel'):
             vrd = '+385 ' + mobpoz[random.randrange(len(mobpoz))] + ' ' +  str(random.randrange(100,1000)) + ' ' + str(random.randrange(1000,10000))
         elif knt in ('Poslovna e-mail adresa', 'Privatna e-mail adresa'):
-            vrd = usernames[random.randrange(br_usn)] + '@' + domene[random.randrange(len(domene))]
+            vrd = usernames[random.randrange(br_usn)] +str(random.randint(100,1000))+ '@' + domene[random.randrange(len(domene))]
         else:
-            vrd = usernames[random.randrange(br_usn)] + str(random.randrange(10,100))
+            vrd = usernames[random.randrange(br_usn)] + str(random.randrange(10,1000))
         
         lll = 'INSERT INTO kontakt (osoba_osb_id, vrsta, vrijednost)'+ ' VALUES ('+ str(i+1) + ', \'' + knt +'\', \'' + vrd + '\');\n';
         ff.writelines(lll);

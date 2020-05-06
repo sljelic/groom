@@ -69,5 +69,18 @@
 <domain>613D5A4A-0F87-FA4C-B036-E368950BD63C</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="duljina_dlake" id="97B5F607-C92B-6C3B-78F8-576CEFB86461">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 16:05:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>50949A1C-1ED0-D0A3-CFDA-856D2C50D2AF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>

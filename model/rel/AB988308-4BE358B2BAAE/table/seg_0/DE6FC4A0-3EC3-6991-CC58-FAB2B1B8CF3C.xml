@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE6FC4A0-3EC3-6991-CC58-FAB2B1B8CF3C" name="PostUred">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 21:35:16 UTC</createdTime>
+<generatorID>2853C99B-A845-493A-898B-DE71601D3B7D</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<abbreviation>PUR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="naziv" id="136BF76D-3B55-3FFB-B9E6-842DCBC6FEDF">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 21:35:16 UTC</createdTime>
+<generatorID>AB2E0C29-5FF0-1CF5-4E8C-CBE8E14CF7C5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj" id="63581A13-B248-94A0-88F8-78ACD30E95BA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 21:35:16 UTC</createdTime>
+<generatorID>FDFDC55A-778D-A681-11ED-57DBDDBF2A9B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naselje" id="99E923DE-80F5-DCCD-BA56-733AC3750B8C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 21:35:16 UTC</createdTime>
+<generatorID>CBA5511D-AEFC-C0A1-22FB-A7D8EDC207DB</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ul_mbr" id="ED459AFC-F415-3AA5-7D14-705FAC08DB5C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 21:35:16 UTC</createdTime>
+<generatorID>93EAC6BE-B4AF-05CB-22BC-D3A474AEF598</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5CD1A52-1288-9FB1-F103-9B3E79329F7D" referredColumn="EAE0D8FF-50F0-DD3F-5526-5E34ABAA9EB6"/>
+</associations>
+</Column>
+<Column name="PUR_ID" id="B77C2F3C-D4F7-D8D3-9178-CFFAEA9789B3">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 21:35:16 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="939BC1D5-DCBC-3C5A-3B75-A4D342AD53E7" name="PUR_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 21:35:16 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="B77C2F3C-D4F7-D8D3-9178-CFFAEA9789B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FF35B07-0160-DE75-4EC3-7A7ED2AB9479" name="pur_ulice">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-06 21:35:16 UTC</createdTime>
+<generatorID>971843CD-9D7B-2AC9-C9A6-367A258397E4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED459AFC-F415-3AA5-7D14-705FAC08DB5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

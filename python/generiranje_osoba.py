@@ -7,8 +7,20 @@ Created on Sat Apr 25 23:54:51 2020
 import datetime;
 import random;
 
+def prep(x):
+    if str(x) == 'NULL':
+        return str(x)
+    elif type(x) == datetime.date:
+        return 'TO_DATE(\'' + str(x) + '\', \'YYYY-MM-DD\')'
+    else:
+        return '\'' + str(x) + '\''
+
+
 start_date = datetime.date(1940, 1, 1)
 end_date = datetime.date(2002, 2, 1)
+
+
+
 
 time_between_dates = end_date - start_date
 days_between_dates = time_between_dates.days
@@ -57,9 +69,9 @@ spol = ['M', 'Z'];
 
 uloga = ['Klijent', 'Djelatnik'];
 
-num_insert = 60
+num_insert = 400
 
-ff = open('../inserts/tab_kontakt_inserts.sql','w', encoding="utf-8")
+ff = open('../inserts/tab_osoba_inserts.sql','w', encoding="utf-8")
 
 for i in range(num_insert):
     sp = '\'' +spol[random.randrange(2)]+'\''
@@ -85,13 +97,16 @@ for i in range(num_insert):
     random_number_of_days = random.randrange(days_between_dates)
     random_date = start_date + datetime.timedelta(days=random_number_of_days)
     if random.randrange(2) == 1:
-        dat = '\'' +  str(random_date)+  '\''
+        dat = random_date
     else:
         dat =  'NULL' 
-    lll = 'INSERT INTO osoba (ime, prezime, drugo_prezime, uloga, spol, datum_rodjenja)'+ ' VALUES (' + im +', ' + prz1 + ', ' + prz2 + ', ' +ul+', ' + sp +', ' + dat +');\n';
+    lll = 'INSERT INTO osoba (ime, prezime, drugo_prezime, uloga, spol, datum_rodjenja)'+ ' VALUES (' + im +', ' + prz1 + ', ' + prz2 + ', ' +ul+', ' + sp +', ' + prep(dat) +');\n';
                 
     ff.writelines(lll)
 
+
+#ff.writelines('DROP SEQUENCE osb_osb_id_seq;\n');
+#ff.writelines('CREATE SEQUENCE osb_osb_id_seq START WITH '+ str(num_insert + 1 )+' NOCACHE ORDER;\n');
 ff.close()
     
     

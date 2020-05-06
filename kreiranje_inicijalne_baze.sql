@@ -51,3 +51,12 @@ COMMIT;
 
 @'C:\coderepos\groom\inserts\tab_pasmina_inserts.sql';
 COMMIT;
+
+
+DELETE FROM pas;
+@'C:\coderepos\groom\inserts\tab_pas_inserts.sql';
+COMMIT;
+
+DELETE FROM ospas;
+@'C:\coderepos\groom\inserts\tab_ospas_inserts.sql';
+COMMIT;

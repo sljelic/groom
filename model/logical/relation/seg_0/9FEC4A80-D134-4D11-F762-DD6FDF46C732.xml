@@ -26,8 +26,8 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<domain>614B2B26-CDC3-5E9E-1846-4AC4E64FDBE6</domain>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4232CA57-A5E6-7CDC-89C6-CB40C254E8E9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </attribute>
 <attribute name="od" id="6375A72B-A6EB-BA6A-9A25-B02004364021">
