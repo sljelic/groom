@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACE76D1C-A5C6-8359-6F63-E8704F178B37" name="Usluga">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>21841397-8C0A-98A0-7F41-7FF43F26C9B7</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<abbreviation>USL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="naziv" id="9CAA9497-2BFE-68E0-2171-42713A942112">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>16AC7C47-EA89-93F5-9956-29887A0379A7</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="8D6A3A98-AE58-9EBC-19C7-BC3486D70E42">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>5148AB9B-8A73-644B-85E8-33E938BFC70C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="barkod" id="B896A14C-91D9-6276-9D5C-3B72B630BCB4">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>8E01D628-FA0B-A5D7-0225-5DF72D4E472A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jedinica_mjere" id="2266ECB0-110D-F581-49A1-5AB45950F654">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>CAE27314-4466-4FBF-1EA5-BEFDA51AEE7E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>04C74DEE-0CF2-0DD6-6B5E-6318050CE827</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USL_ID" id="125F4554-D309-8AEA-841E-6E32DBA3AD26">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E071777F-922D-F332-82FF-2610AA383D01" name="USL_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="125F4554-D309-8AEA-841E-6E32DBA3AD26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

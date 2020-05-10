@@ -1,0 +1,196 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F4415CF-A3BD-A751-D458-1FD52B22B1F4" name="Osoba">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>E48C435B-F622-5009-D8E8-C13586FF0ECA</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<abbreviation>OSB</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OSB_ID" id="939F22B4-44AF-941F-13EC-88C0256BD165">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="ime" id="A047E2FE-483B-C37D-DAD5-1B6EAC84DBC0">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>7E872212-60F7-18C6-52B0-AFAFA23064E7</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="E20B3F13-8C2D-F7DA-6059-0BDB7D919CDE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>6DEC165C-5814-62A6-C7C0-D749D4672CB8</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uloga" id="C0063362-04F2-87E1-10BE-577F4AE4B4A4">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>4869079C-1092-ED4A-8607-A1F4DDC1865B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>614B2B26-CDC3-5E9E-1846-4AC4E64FDBE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="drugo_prezime" id="E456BEF9-3BAB-7409-6441-7F7BAC5F0329">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>3E72F05B-5E0B-AD17-D5D1-55E7ACBADCBD</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="spol" id="776A8155-B880-4383-DF79-72184E1DF9BF">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>08B5DDEA-6D90-B301-C9B5-4A26734DAB49</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>513C01A4-ACAD-1DBD-53F8-546CB1D4D4F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_rodjenja" id="FE7F63F9-7322-102F-E7CD-FF7EC22294E2">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>558E1612-10D4-DBF0-311A-8F15E5816185</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fotografija" id="03B820AA-C4BF-32F5-EC2E-8FBD30968E29">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>53FC257E-4E2F-8BC2-F25E-06D2E4EB6B84</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="oib" id="FB0319BE-0764-FF27-2537-71CB626F2E6E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>9D3CFCF6-C57D-1B67-E222-4C259EE00155</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jmbg" id="90075BB1-93A7-FA79-198C-A713C6CA457D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>9A56C0BC-F451-84F3-F230-DD4B5F9CB269</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="napomena" id="58049DE5-A576-82D8-DFDE-E7FB24A99F33">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>AF29B750-5D79-1117-95E0-4B17E9F1EB0A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC276603-5D81-7427-8B62-2FD307C491B5" name="OSB_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="939F22B4-44AF-941F-13EC-88C0256BD165"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2637B8E-70CF-0812-AF7A-4F28D2AEC00B" name="ImePrDatR">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>39198B4D-13AD-DBA2-197F-8B00022E16CF</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A047E2FE-483B-C37D-DAD5-1B6EAC84DBC0"/>
+<colUsage columnID="E20B3F13-8C2D-F7DA-6059-0BDB7D919CDE"/>
+<colUsage columnID="FE7F63F9-7322-102F-E7CD-FF7EC22294E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59E39AA0-8ADB-600D-1599-9B9C959281C5" name="oib">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>787EE2B3-57F1-A25D-3769-503A06215DA0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB0319BE-0764-FF27-2537-71CB626F2E6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="495DEBDF-6E17-3C74-BE46-B1F5B5DCABC4" name="jmbg">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 17:17:06 UTC</createdTime>
+<generatorID>22AE8D1B-2F7D-E93E-767C-295BED8CD56A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90075BB1-93A7-FA79-198C-A713C6CA457D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3733860D-8A19-9C90-5981-5D0AE70824AF" name="Promjena">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 11:24:53 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PRM</shortName>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tip" id="D4B15900-E14F-5D81-3B30-E7D284472925">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 11:25:28 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CC4CFF46-74D0-FDF1-17CE-510841729049</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="od" id="886AF455-B8E0-1449-7CEC-67698B00F39A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 11:25:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[		]]></commentInRDBMS>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="do" id="267414BA-389A-FB3E-7A91-A8C7E7DFF296">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 11:27:42 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iznos" id="13D289D8-F37E-58ED-F039-048B88D2A461">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 11:28:16 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="665FCB04-DFFC-B520-EA6D-617E3FCFDC4A" name="uniq_od">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 11:38:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<newElementsIDs>D4B15900-E14F-5D81-3B30-E7D284472925,886AF455-B8E0-1449-7CEC-67698B00F39A,46FC7903-D4FF-3674-E8BD-5F1C7A6A8704,20D03578-4912-092C-791D-ECDC90F8963E</newElementsIDs>
+<usedAttributes>
+<attributeRef>D4B15900-E14F-5D81-3B30-E7D284472925</attributeRef>
+<attributeRef>886AF455-B8E0-1449-7CEC-67698B00F39A</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="67A4EC71-049C-4C4D-2A19-563F80D314E1" name="uniq_do">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 11:41:08 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<newElementsIDs>D4B15900-E14F-5D81-3B30-E7D284472925,267414BA-389A-FB3E-7A91-A8C7E7DFF296,46FC7903-D4FF-3674-E8BD-5F1C7A6A8704,20D03578-4912-092C-791D-ECDC90F8963E</newElementsIDs>
+<usedAttributes>
+<attributeRef>D4B15900-E14F-5D81-3B30-E7D284472925</attributeRef>
+<attributeRef>267414BA-389A-FB3E-7A91-A8C7E7DFF296</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

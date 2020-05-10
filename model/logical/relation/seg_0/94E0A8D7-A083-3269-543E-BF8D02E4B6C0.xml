@@ -7,8 +7,6 @@
 <item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
 </engineerTo>
 <useSurrogateKey>true</useSurrogateKey>
-<sourceTransferable>false</sourceTransferable>
-<targetTransferable>false</targetTransferable>
 <identifying>true</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GrUsProm" directorySegmentName="seg_0" id="20D03578-4912-092C-791D-ECDC90F8963E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-09 11:38:08 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>82EC4D02-A94D-E839-D944-74EB9FADDB0B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3733860D-8A19-9C90-5981-5D0AE70824AF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

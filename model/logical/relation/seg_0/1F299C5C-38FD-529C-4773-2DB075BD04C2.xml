@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PasmGrup" directorySegmentName="seg_0" id="1F299C5C-38FD-529C-4773-2DB075BD04C2">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-07 16:25:22 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>82EC4D02-A94D-E839-D944-74EB9FADDB0B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>10A73CF4-A775-0D8E-A0A1-F8F019F46C03</targetEntity>
+<transferable>true</transferable>
+</Relation>

@@ -48,8 +48,9 @@
 <createdBy>Korisnik</createdBy>
 <createdTime>2020-04-25 21:02:34 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>94E0A8D7-A083-3269-543E-BF8D02E4B6C0,FAAE3A80-5EB1-1701-F9A3-92C78A23858C,5542C392-9970-0F8D-0160-1FFEBA71E2C5</newElementsIDs>
