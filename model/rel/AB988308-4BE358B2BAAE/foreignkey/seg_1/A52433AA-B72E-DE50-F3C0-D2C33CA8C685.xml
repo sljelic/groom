@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="A52433AA-B72E-DE50-F3C0-D2C33CA8C685" containerWithKeyObject="92F2B300-3762-7F26-D4CC-FA350D70180B" localFKIndex="FA90CFCE-9878-1E1A-E057-BC81789F8BEF" name="dostupan_na">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 19:31:32 UTC</createdTime>
+<generatorID>94E0A8D7-A083-3269-543E-BF8D02E4B6C0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Osoba</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>64371EFB-15B7-EEAF-72B0-2677FAA776FF</referredTableID>
+<keyObject>BDE1FEC7-3A95-1FCA-D7B9-76A88F039357</keyObject>
+<referredKeyID>BDE1FEC7-3A95-1FCA-D7B9-76A88F039357</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>OSB_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

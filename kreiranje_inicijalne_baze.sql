@@ -6,6 +6,9 @@
 /* DDL iskazi */
 @'C:\coderepos\groom\ddl\relacijski_model.ddl';
 
+/* indeksi */
+@'C:\coderepos\groom\ddl\indices.sql';
+
 /* ciscenje nepotrebnog */
 @'C:\coderepos\groom\drops\drop_seq_nonnec.sql';
 
@@ -59,4 +62,12 @@ COMMIT;
 
 DELETE FROM ospas;
 @'C:\coderepos\groom\inserts\tab_ospas_inserts.sql';
+COMMIT;
+
+DELETE FROM proizvod;
+@'C:\coderepos\groom\inserts\tab_proizvod_inserts.sql';
+COMMIT;
+
+DELETE FROM promjena;
+@'C:\coderepos\groom\inserts\tab_promjena_inserts.sql';
 COMMIT;

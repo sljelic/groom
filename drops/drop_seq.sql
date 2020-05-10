@@ -5,6 +5,7 @@ DROP SEQUENCE pur_pur_id_seq;
 DROP SEQUENCE pas_pas_id_seq;
 DROP SEQUENCE psm_psm_id_seq;
 DROP SEQUENCE gus_gus_id_seq;
-DROP SEQUENCE prm_prm_id_seq;
+DROP SEQUENCE ppr_ppr_id_seq;
+DROP SEQUENCE ppu_ppu_id_seq;
 DROP SEQUENCE prz_prz_id_seq;
 DROP SEQUENCE usl_usl_id_seq;

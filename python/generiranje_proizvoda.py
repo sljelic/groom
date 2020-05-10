@@ -68,7 +68,7 @@ def prep(x):
         return str(x)
     elif type(x) == datetime.date:
         return 'TO_DATE(\'' + str(x) + '\', \'YYYY-MM-DD\')'
-    elif type(x) == int or type(x) == float:
+    elif type(x) == int or type(x) == float or type(x) == np.float64:
         return str(x)
     else:
         return '\'' + str(x) + '\''
@@ -139,7 +139,7 @@ for i in range(br_prz):
 
     
     prom_cijene = list(zip ( radnom_date_array(poc,danas, num_of_ch_c) ,list(map(lambda x: round(x,2), np.random.uniform(low=5.00, high=1000.00, size=(num_of_ch_c + 1,))))))
-    prom_ponude = radnom_date_array(poc,danas, num_of_ch_p)
+    prom_ponude = radnom_date_array(poc,danas, 2*num_of_ch_p)
     
     naziv = naz_proiz[ind_imena[i]]
     barkod = EAN13(str(random.randrange(100000000000,1000000000000))).get_fullcode();
@@ -155,20 +155,20 @@ for i in range(br_prz):
     visina = random.randrange(50,300)
     volumen = round(random.uniform(0.5,2),2)
     
-    lll = 'INSERT INTO proizvod (naziv, opis, barkod, jedinica_mjere, duzina_(mm), sirina_(mm), visina_(mm), volumen_(l))'+ ' VALUES (' + prep(naziv) +', '  + prep(text_opisa) + ', ' + prep(barkod) + ', ' +prep(jedinica_mjere)+', ' + prep(duzina) +', '+ prep(sirina) +', ' + prep(visina) +', ' + prep(volumen) +' );\n';
+    lll = 'INSERT INTO proizvod (naziv, opis, barkod, jedinica_mjere, duzina, sirina, visina, volumen)'+ ' VALUES (' + prep(naziv) +', '  + prep(text_opisa) + ', ' + prep(barkod) + ', ' +prep(jedinica_mjere)+', ' + prep(duzina) +', '+ prep(sirina) +', ' + prep(visina) +', ' + prep(volumen) +' );\n';
     ffproizvod.writelines(lll);
     #print (num_of_ch_c, len(prom_cijene))
     #print(prom_cijene)
     for j in range(num_of_ch_c):
-        lll = 'INSERT INTO promjena (tip, od, do, iznos, proizvod_prz_id)'+ ' VALUES (' + prep('Cijena') +', '  + prep(prom_cijene[j][0]) + ', ' + prep(prom_cijene[j+1][0] - datetime.timedelta(days=1)) + ', ' +prep(prom_cijene[j][1])+', ' + prep(i+1) + ' );\n';
+        lll = 'INSERT INTO promjenaproizvoda (tip, od, do, iznos, proizvod_prz_id)'+ ' VALUES (' + prep('Cijena') +', '  + prep(prom_cijene[j][0]) + ', ' + prep(prom_cijene[j+1][0] - datetime.timedelta(days=1)) + ', ' +prep(prom_cijene[j][1])+', ' + prep(i+1) + ' );\n';
         ffpromjena.writelines(lll)
-    lll = 'INSERT INTO promjena (tip, od, do, iznos, proizvod_prz_id)'+ ' VALUES (' + prep('Cijena') +', '  + prep(prom_cijene[num_of_ch_c][0]) + ', ' + prep('NULL') + ', ' +prep(prom_cijene[num_of_ch_c][1])+', ' + prep(i+1) + ' );\n';
+    lll = 'INSERT INTO promjenaproizvoda (tip, od, do, iznos, proizvod_prz_id)'+ ' VALUES (' + prep('Cijena') +', '  + prep(prom_cijene[num_of_ch_c][0]) + ', ' + prep('NULL') + ', ' +prep(prom_cijene[num_of_ch_c][1])+', ' + prep(i+1) + ' );\n';
     ffpromjena.writelines(lll)
     
-    for j in range(num_of_ch_p):
-        lll = 'INSERT INTO promjena (tip, od, do, proizvod_prz_id)'+ ' VALUES (' + prep('Ponuda') +', '  + prep(prom_ponude[j]) + ', ' + prep(prom_ponude[j+1] - datetime.timedelta(days=1)) + ', ' + prep(i+1) + ' );\n';
+    for j in range(0,2*num_of_ch_p,2):
+        lll = 'INSERT INTO promjenaproizvoda (tip, od, do, proizvod_prz_id)'+ ' VALUES (' + prep('Ponuda') +', '  + prep(prom_ponude[j]) + ', ' + prep(prom_ponude[j+1] - datetime.timedelta(days=1)) + ', ' + prep(i+1) + ' );\n';
         ffpromjena.writelines(lll)
-    lll = 'INSERT INTO promjena (tip, od, do, proizvod_prz_id)'+ ' VALUES (' + prep('Ponuda') +', '  + prep(prom_ponude[num_of_ch_p]) + ', ' + prep('NULL') + ', ' + prep(i+1) + ' );\n';
+    lll = 'INSERT INTO promjenaproizvoda (tip, od, do, proizvod_prz_id)'+ ' VALUES (' + prep('Ponuda') +', '  + prep(prom_ponude[2*num_of_ch_p]) + ', ' + prep('NULL') + ', ' + prep(i+1) + ' );\n';
     ffpromjena.writelines(lll)
 
 ffproizvod.close()

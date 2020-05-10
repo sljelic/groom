@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3733860D-8A19-9C90-5981-5D0AE70824AF" name="PromjenaUsluge">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB777855-6AF6-450B-D58D-62575F95B4CD" name="PromjenaProizvoda">
 <createdBy>Korisnik</createdBy>
-<createdTime>2020-05-09 11:24:53 UTC</createdTime>
+<createdTime>2020-05-10 18:59:03 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
 <item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
@@ -14,12 +14,12 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>PPU</shortName>
+<shortName>PPR</shortName>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="tip" id="D4B15900-E14F-5D81-3B30-E7D284472925">
+<Attribute name="tip" id="0FAE8A57-7E06-5C35-769C-07DBD0A6036C">
 <createdBy>Korisnik</createdBy>
-<createdTime>2020-05-09 11:25:28 UTC</createdTime>
+<createdTime>2020-05-10 18:59:03 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
 <item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
@@ -29,9 +29,9 @@
 <domain>CC4CFF46-74D0-FDF1-17CE-510841729049</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="od" id="886AF455-B8E0-1449-7CEC-67698B00F39A">
+<Attribute name="od" id="8E14903A-33B2-F7BB-3DEF-C98F2AD6B043">
 <createdBy>Korisnik</createdBy>
-<createdTime>2020-05-09 11:25:36 UTC</createdTime>
+<createdTime>2020-05-10 18:59:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[		]]></commentInRDBMS>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
@@ -42,9 +42,9 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="do" id="267414BA-389A-FB3E-7A91-A8C7E7DFF296">
+<Attribute name="do" id="74A17D29-A111-52BC-3CB9-8294B8F6467F">
 <createdBy>Korisnik</createdBy>
-<createdTime>2020-05-09 11:27:42 UTC</createdTime>
+<createdTime>2020-05-10 18:59:03 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
 <item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
@@ -55,9 +55,9 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="iznos" id="13D289D8-F37E-58ED-F039-048B88D2A461">
+<Attribute name="iznos" id="B0F37FCD-9341-C547-20C0-CB1F18387B0B">
 <createdBy>Korisnik</createdBy>
-<createdTime>2020-05-09 11:28:16 UTC</createdTime>
+<createdTime>2020-05-10 18:59:03 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
 <item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
@@ -70,30 +70,30 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="665FCB04-DFFC-B520-EA6D-617E3FCFDC4A" name="uniq_od_usl">
+<identifier id="F2A5B804-D889-E87C-662D-9403B309CA20" name="uniq_od_prz">
 <createdBy>Korisnik</createdBy>
-<createdTime>2020-05-09 11:38:49 UTC</createdTime>
+<createdTime>2020-05-10 19:22:18 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
 <item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
 </engineerTo>
-<newElementsIDs>D4B15900-E14F-5D81-3B30-E7D284472925,886AF455-B8E0-1449-7CEC-67698B00F39A,46FC7903-D4FF-3674-E8BD-5F1C7A6A8704,20D03578-4912-092C-791D-ECDC90F8963E</newElementsIDs>
+<newElementsIDs>0FAE8A57-7E06-5C35-769C-07DBD0A6036C,8E14903A-33B2-F7BB-3DEF-C98F2AD6B043,4E6D8412-C754-C92F-47E6-6B9623BBB279</newElementsIDs>
 <usedAttributes>
-<attributeRef>D4B15900-E14F-5D81-3B30-E7D284472925</attributeRef>
-<attributeRef>886AF455-B8E0-1449-7CEC-67698B00F39A</attributeRef>
+<attributeRef>0FAE8A57-7E06-5C35-769C-07DBD0A6036C</attributeRef>
+<attributeRef>8E14903A-33B2-F7BB-3DEF-C98F2AD6B043</attributeRef>
 </usedAttributes>
 </identifier>
-<identifier id="67A4EC71-049C-4C4D-2A19-563F80D314E1" name="uniq_do_usl">
+<identifier id="E5EC9CF2-C61A-F1BB-7D1B-DEA12595EFBC" name="uniq_do_prz">
 <createdBy>Korisnik</createdBy>
-<createdTime>2020-05-09 11:41:08 UTC</createdTime>
+<createdTime>2020-05-10 19:22:36 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
 <item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
 </engineerTo>
-<newElementsIDs>D4B15900-E14F-5D81-3B30-E7D284472925,267414BA-389A-FB3E-7A91-A8C7E7DFF296,46FC7903-D4FF-3674-E8BD-5F1C7A6A8704,20D03578-4912-092C-791D-ECDC90F8963E</newElementsIDs>
+<newElementsIDs>0FAE8A57-7E06-5C35-769C-07DBD0A6036C,74A17D29-A111-52BC-3CB9-8294B8F6467F,4E6D8412-C754-C92F-47E6-6B9623BBB279</newElementsIDs>
 <usedAttributes>
-<attributeRef>D4B15900-E14F-5D81-3B30-E7D284472925</attributeRef>
-<attributeRef>267414BA-389A-FB3E-7A91-A8C7E7DFF296</attributeRef>
+<attributeRef>0FAE8A57-7E06-5C35-769C-07DBD0A6036C</attributeRef>
+<attributeRef>74A17D29-A111-52BC-3CB9-8294B8F6467F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

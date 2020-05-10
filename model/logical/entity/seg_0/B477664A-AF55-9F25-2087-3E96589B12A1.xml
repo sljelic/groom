@@ -67,10 +67,10 @@
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>04C74DEE-0CF2-0DD6-6B5E-6318050CE827</domain>
+<domain>AA1947E3-E11D-8A22-3118-2779CB564985</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="duzina (mm)" id="CF4C873F-F20F-F633-2456-8A86816A12C8">
+<Attribute name="duzina" id="CF4C873F-F20F-F633-2456-8A86816A12C8">
 <createdBy>Korisnik</createdBy>
 <createdTime>2020-05-07 16:08:33 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -83,7 +83,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="sirina (mm)" id="EBFD1D8B-1924-8748-0319-9280102F0F77">
+<Attribute name="sirina" id="EBFD1D8B-1924-8748-0319-9280102F0F77">
 <createdBy>Korisnik</createdBy>
 <createdTime>2020-05-07 16:08:58 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -96,7 +96,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="visina (mm)" id="6BC406F2-DF1F-0606-36B2-F37EC0860C70">
+<Attribute name="visina" id="6BC406F2-DF1F-0606-36B2-F37EC0860C70">
 <createdBy>Korisnik</createdBy>
 <createdTime>2020-05-07 16:08:58 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -109,7 +109,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="volumen (l)" id="0CFB1EC7-FBF2-5B38-2739-CE4936FE06E5">
+<Attribute name="volumen" id="0CFB1EC7-FBF2-5B38-2739-CE4936FE06E5">
 <createdBy>Korisnik</createdBy>
 <createdTime>2020-05-07 16:09:52 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
