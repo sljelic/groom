@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="069E6247-D8E0-2DBE-8729-BAC3F83D5C07" name="Pas">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>9BE5B2A6-464C-45FB-C4AF-849BFF838C54</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<abbreviation>PAS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ime" id="03AD2434-090C-B599-E4BB-8B3722F27D9E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>B141BBD7-E402-928C-A1EB-E11C933EA184</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="spol" id="4847EE65-E1A4-BCA8-FB3F-F3F2E815F0FB">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>57ECE704-24DC-1BCA-121B-64DC9671B04B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>513C01A4-ACAD-1DBD-53F8-546CB1D4D4F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_okota" id="F3800AEA-469C-94B3-9FD4-908ED5370890">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>B1E2ED79-69D4-5511-4771-D2A1D69CDC71</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_dlake" id="88696624-B145-4B95-58DC-01859DC8FEAD">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>AB967279-DCE0-F4C8-A219-F0E4DFE9246B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>613D5A4A-0F87-FA4C-B036-E368950BD63C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duljina_dlake" id="F06C22E7-CDE6-E1B2-4336-A020B28054A6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>97B5F607-C92B-6C3B-78F8-576CEFB86461</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>50949A1C-1ED0-D0A3-CFDA-856D2C50D2AF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAS_ID" id="2438BE83-6F63-AFCE-BD7B-C0111328AA9B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="PASMINA_PSM_ID" id="BD2D39D5-34B5-5DD5-905C-1887F2B05575">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC00DFDB-16D9-DADD-C124-0D9D6C43D286" referredColumn="9A505CAD-38D1-FCA0-B08D-34D8933ED073"/>
+</associations>
+</Column>
+<Column name="PASMINA_PSM_ID1" id="D4D26A9D-56BB-D329-BC27-A1BD8CC38026">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C143CF6-5D8C-C161-0F24-0AC75A0450CC" referredColumn="9A505CAD-38D1-FCA0-B08D-34D8933ED073"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA28E212-E34E-5DA3-752B-784B43A2CA90" name="PAS_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="2438BE83-6F63-AFCE-BD7B-C0111328AA9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1B97D03-2BC6-F5AE-F4DD-AB06D19E1A86" name="majka">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>A24C84C9-85F0-E1EC-FDAF-035A6A86CA12</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD2D39D5-34B5-5DD5-905C-1887F2B05575"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5B9B71C-58E7-A16B-E1AF-F9C80F1EA764" name="otac">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>655356D7-AD17-4BFE-780E-18D1FCBC77B1</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4D26A9D-56BB-D329-BC27-A1BD8CC38026"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

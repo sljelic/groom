@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AED21C01-EDE7-A696-89C0-514580487244" containerWithKeyObject="CDA3FCB4-E9C7-384C-CD61-DCE4312077A8" localFKIndex="9B566993-FEB2-1A14-D9B7-A2FB12A02DC5" name="PasUl">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>B4683899-6761-F1AC-4FE3-659657850882</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Pas</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>069E6247-D8E0-2DBE-8729-BAC3F83D5C07</referredTableID>
+<keyObject>DA28E212-E34E-5DA3-752B-784B43A2CA90</keyObject>
+<referredKeyID>DA28E212-E34E-5DA3-752B-784B43A2CA90</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PAS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

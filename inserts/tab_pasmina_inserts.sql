@@ -1,7 +1,7 @@
 DELETE FROM pasmina;
 INSERT INTO pasmina (fci_broj,naziv, engleski_naziv, hrvatski_naziv, srpski_naziv,pretraz_string,redni_broj_grupe, grupa_eng, sekcija_eng, 
 podsekcija_eng, grupa_hrv, sekcija_hrv, podsekcija_hrv, grupa_srb, sekcija_srb, podsekcija_srb,
-zemlja_podrijetla, ilustracija)
+zemlja_podrijetla, ilustracija, grupapasmina_gus_id)
 SELECT fcp.FCI_BROJ AS "FCI_BROJ", (CASE WHEN v.naziv IS NOT NULL THEN fcp.naziv || ' (' || v.naziv || ')' ELSE fcp.naziv END) AS "NAZIV",
 (CASE WHEN v.naziv IS NOT NULL THEN fcp.engleski_naziv || ' (' || v.naziv || ')' ELSE fcp.engleski_naziv END) AS "ENGLESKI_NAZIV",
 (CASE WHEN v.hrvatski_naziv IS NOT NULL THEN fcp.hrvatski_naziv || ' (' || v.hrvatski_naziv || ')' ELSE fcp.hrvatski_naziv END) AS "HRVATSKI_NAZIV",
@@ -21,7 +21,8 @@ fcg.srpski_naziv AS "GRUPA_SRB",
 fcs.srpski_naziv AS "SEKCIJA_SRB",
 fcps.srpski_naziv AS "PODSEKCIJA_SRB",
 fcp.zemlja_podrijetla AS "ZEMLJA_PODRIJETLA",
-fcp.ilustracija AS "ILUSTRACIJA"
+fcp.ilustracija AS "ILUSTRACIJA",
+floor(dbms_random.value(1, 10))  AS "GRUPAPASMINA_GUS_ID"
 FROM fci_pas fcp LEFT JOIN varijanta v ON (fcp.fps_id = v.fci_pas_fps_id)
                  LEFT JOIN fci_gr fcg ON (fcp.fci_gr_fcg_id = fcg.fcg_id)
                  LEFT JOIN fci_sek fcs ON (fcp.fci_sek_fcs_id = fcs.fcs_id)

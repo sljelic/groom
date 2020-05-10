@@ -52,6 +52,10 @@ DELETE FROM varijanta;
 @'C:\coderepos\groom\inserts\tab_varijanta_inserts.sql';
 COMMIT;
 
+DELETE FROM grupapasmina;
+@'C:\coderepos\groom\inserts\tab_grupapasmina_inserts.sql';
+COMMIT;
+
 @'C:\coderepos\groom\inserts\tab_pasmina_inserts.sql';
 COMMIT;
 
@@ -68,6 +72,14 @@ DELETE FROM proizvod;
 @'C:\coderepos\groom\inserts\tab_proizvod_inserts.sql';
 COMMIT;
 
-DELETE FROM promjena;
-@'C:\coderepos\groom\inserts\tab_promjena_inserts.sql';
+DELETE FROM promjenaproizvoda;
+@'C:\coderepos\groom\inserts\tab_promjenaproizvoda_inserts.sql';
+COMMIT;
+
+DELETE FROM usluga;
+@'C:\coderepos\groom\inserts\tab_usluga_inserts.sql';
+COMMIT;
+
+DELETE FROM promjenausluga;
+@'C:\coderepos\groom\inserts\tab_promjenausluga_inserts.sql';
 COMMIT;

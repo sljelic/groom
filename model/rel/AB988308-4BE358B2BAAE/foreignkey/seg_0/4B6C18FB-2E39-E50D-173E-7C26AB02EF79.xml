@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4B6C18FB-2E39-E50D-173E-7C26AB02EF79" containerWithKeyObject="EB651086-C928-DE33-7E28-640480633114" localFKIndex="4E9737BA-9C72-874C-160F-9175C6069396" name="FpasFcs">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>DFF7806C-04B3-B0D1-B659-7B819D09C354</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>FCI_SEK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FCFE963E-D977-EE5D-E51F-C563C271BA4C</referredTableID>
+<keyObject>100A0376-6AA2-6AB8-34C6-F98123197CFB</keyObject>
+<referredKeyID>100A0376-6AA2-6AB8-34C6-F98123197CFB</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>FCS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

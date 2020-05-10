@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5C143CF6-5D8C-C161-0F24-0AC75A0450CC" containerWithKeyObject="069E6247-D8E0-2DBE-8729-BAC3F83D5C07" localFKIndex="B5B9B71C-58E7-A16B-E1AF-F9C80F1EA764" name="otac">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>655356D7-AD17-4BFE-780E-18D1FCBC77B1</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>PASMINA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B2BB477A-BC95-6EE1-B415-AC2BD8F6CB73</referredTableID>
+<keyObject>FB0E1AB4-9AA3-4174-BCF1-D643D2C192A5</keyObject>
+<referredKeyID>FB0E1AB4-9AA3-4174-BCF1-D643D2C192A5</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PSM_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

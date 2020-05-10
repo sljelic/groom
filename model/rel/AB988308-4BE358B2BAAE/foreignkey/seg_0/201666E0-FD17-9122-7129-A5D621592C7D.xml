@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="201666E0-FD17-9122-7129-A5D621592C7D" containerWithKeyObject="8BD4C648-7A8B-A64E-9D7E-6E2098C2891A" localFKIndex="9AA2E5B6-220C-B90B-5254-CD25B1D48BB6" name="UslProm">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>46FC7903-D4FF-3674-E8BD-5F1C7A6A8704</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Usluga</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>5BBF7FFF-AB5E-DD9E-6122-282FECEF73AD</referredTableID>
+<keyObject>9633AD0D-856F-BC78-71AD-086FE2D4B4ED</keyObject>
+<referredKeyID>9633AD0D-856F-BC78-71AD-086FE2D4B4ED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>USL_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

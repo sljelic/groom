@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="80D86D7F-2315-3043-39D7-48127CCF7E31" containerWithKeyObject="B2BB477A-BC95-6EE1-B415-AC2BD8F6CB73" localFKIndex="4A07F93D-0F66-DE0C-BEC3-3BCE18A67D9E" name="PasmGrup">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>1F299C5C-38FD-529C-4773-2DB075BD04C2</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>GrupaPasmina</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>13EC044B-F6F7-59A0-EE01-707FCBAA6689</referredTableID>
+<keyObject>7CC7F60E-64A4-158A-CAE7-514FFAB93AA7</keyObject>
+<referredKeyID>7CC7F60E-64A4-158A-CAE7-514FFAB93AA7</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>GUS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

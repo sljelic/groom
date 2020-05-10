@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="76524950-E873-1656-C5EF-E89BD51A8054" containerWithKeyObject="58593956-F3BE-C803-30D1-FB115D831569" localFKIndex="4A953F51-397E-70B6-BBFB-B38C4D998420" name="pur_ulice">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>971843CD-9D7B-2AC9-C9A6-367A258397E4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>UliceNas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>73BED9FE-75FD-6770-2A0B-FB09BF5CBCE7</referredTableID>
+<keyObject>B27298EA-F430-D5D9-AE08-012DC7CE1F1E</keyObject>
+<referredKeyID>B27298EA-F430-D5D9-AE08-012DC7CE1F1E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ul_mbr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

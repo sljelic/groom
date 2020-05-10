@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDA3FCB4-E9C7-384C-CD61-DCE4312077A8" name="ospas">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>9F70C378-9F64-F5B8-E73D-BDC699B9DCDC</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<abbreviation>OSP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="od" id="4757AAC3-98CC-8DB2-7FD2-5540E89742BE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>8BC48942-0A31-FD92-7EC8-5B09F4AB51C8</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="do" id="47FCE245-1803-55D4-83F4-F3F73D2566F0">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>77CDDA8D-91DD-0F95-E4F6-E739622D594B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uloga" id="02F9ABEA-6FD8-DD4E-A144-F76466925AAB">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>9122270E-19AE-3A54-B86F-50402ED15A04</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4232CA57-A5E6-7CDC-89C6-CB40C254E8E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OSP_ID" id="FB4EE256-A063-1770-DA9F-C12DB761F661">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Osoba_OSB_ID" id="45B6C7C7-4D45-52A3-9D3E-9D7AEFEC8A62">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8585BC5-5F42-9DC6-2EC7-81AE81116DD9" referredColumn="66FE2FB4-9DAF-4F2A-FA20-07B8C7E51CBF"/>
+</associations>
+</Column>
+<Column name="Pas_PAS_ID" id="FF838A21-0DA4-65B6-3E1B-955F40242BEC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AED21C01-EDE7-A696-89C0-514580487244" referredColumn="2438BE83-6F63-AFCE-BD7B-C0111328AA9B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6FE25B8-436B-7FFF-92D9-D7FA9E2DFE98" name="OSP_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="FB4EE256-A063-1770-DA9F-C12DB761F661"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE72A41E-293F-0B9A-B010-CB003B6B4022" name="uniq_osp">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>AE122F5F-2812-3B22-B99F-6F1EC1323856</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4757AAC3-98CC-8DB2-7FD2-5540E89742BE"/>
+<colUsage columnID="02F9ABEA-6FD8-DD4E-A144-F76466925AAB"/>
+<colUsage columnID="45B6C7C7-4D45-52A3-9D3E-9D7AEFEC8A62"/>
+<colUsage columnID="FF838A21-0DA4-65B6-3E1B-955F40242BEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3E8B6B9-AA01-A126-0E31-A88884945AA9" name="OsUl">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>1B9E9DDE-B364-4B6E-53B0-A81CD749022B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45B6C7C7-4D45-52A3-9D3E-9D7AEFEC8A62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B566993-FEB2-1A14-D9B7-A2FB12A02DC5" name="PasUl">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>B4683899-6761-F1AC-4FE3-659657850882</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF838A21-0DA4-65B6-3E1B-955F40242BEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

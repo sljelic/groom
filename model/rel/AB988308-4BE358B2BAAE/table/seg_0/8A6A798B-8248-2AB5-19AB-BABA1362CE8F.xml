@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A6A798B-8248-2AB5-19AB-BABA1362CE8F" name="Kontakt">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>49CFDA7D-B85C-92A1-5861-5C32A3C34EF5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<abbreviation>KNT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vrsta" id="56D1E2DD-1C60-2F5E-BA44-E6565271C76C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>FAAE3A80-5EB1-1701-F9A3-92C78A23858C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F9A183C-8EAE-A22A-F4CE-F9FAD7502CD5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrijednost" id="CD4FC3DA-C046-28B2-C773-11D83E5D8448">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>5542C392-9970-0F8D-0160-1FFEBA71E2C5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KNT_ID" id="A55CB814-41F8-581B-A94B-C1549F854351">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Osoba_OSB_ID" id="B09549C4-5BCB-751C-09EC-ADC332858C8C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDFCEF47-2F00-53D0-D971-DD06AED452FC" referredColumn="66FE2FB4-9DAF-4F2A-FA20-07B8C7E51CBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BF169DE-54C0-2888-AF58-E9BCAC2226D5" name="KNT_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A55CB814-41F8-581B-A94B-C1549F854351"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BB95F7F-8142-AF64-9C75-2332B9AB5B3F" name="Osb_Vrs_Vrij">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>7B48FBDD-0746-B140-ABD1-24DC4AEE581F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56D1E2DD-1C60-2F5E-BA44-E6565271C76C"/>
+<colUsage columnID="CD4FC3DA-C046-28B2-C773-11D83E5D8448"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A63A8DE-AABF-F1C6-7D83-BE57ABADBF83" name="dostupan_na">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:41:06 UTC</createdTime>
+<generatorID>94E0A8D7-A083-3269-543E-BF8D02E4B6C0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B09549C4-5BCB-751C-09EC-ADC332858C8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

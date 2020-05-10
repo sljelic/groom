@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PasUl" directorySegmentName="seg_0" id="B4683899-6761-F1AC-4FE3-659657850882">
+<createdBy>Korisnik</createdBy>
+<createdTime>2020-05-10 21:38:18 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="AB988308-D77D-5073-1A69-4BE358B2BAAE" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9BE5B2A6-464C-45FB-C4AF-849BFF838C54</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9F70C378-9F64-F5B8-E73D-BDC699B9DCDC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>
